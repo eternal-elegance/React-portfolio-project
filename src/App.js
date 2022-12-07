@@ -1,5 +1,13 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+
+// importing components
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Experience from './pages/Experience'
+
+
 function App() {
   return (
     <div className="App">
