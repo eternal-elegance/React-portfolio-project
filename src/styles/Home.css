@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono&display=swap');
+
+:root {
+  --theme-color: #4e54c8;
+  --theme-font: 'Nunito Sans', sans-serif, 'Permanent Marker', cursive, 'Roboto Mono', monospace;
+}
+
+
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+/* background animation styles */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 30vh;
+  /* props */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.context h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 70px;
+  color: #e9d35b;
+  height: 120px;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.context h2 span {
+  color: #f0f0f0;
+  text-shadow: rgb(78, 84, 200) 2px 0px 0px, rgb(78, 84, 200) 1.75517px 0.958851px 0px, rgb(78, 84, 200) 1.0806px 1.68294px 0px, rgb(78, 84, 200) 0.141474px 1.99499px 0px, rgb(78, 84, 200) -0.832294px 1.81859px 0px, rgb(78, 84, 200) -1.60229px 1.19694px 0px, rgb(78, 84, 200) -1.97998px 0.28224px 0px, rgb(78, 84, 200) -1.87291px -0.701566px 0px, rgb(78, 84, 200) -1.30729px -1.5136px 0px, rgb(78, 84, 200) -0.421592px -1.95506px 0px, rgb(78, 84, 200) 0.567324px -1.91785px 0px, rgb(78, 84, 200) 1.41734px -1.41108px 0px, rgb(78, 84, 200) 1.92034px -0.558831px 0px;
+}
+
+.context .prompt {
+  font-family: 'Permanent Marker', cursive;
+  width: 40%;
+  font-size: 30px;
+}
+
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+
+.area {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 85vh;
+
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
+}
+
+
+/* ==================================SKILLS STYLES================================================= */
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: var(--theme-color);
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .context h2 {
+    font-size: 55px;
+  }
+
+  .context .prompt {
+    margin-top: 10px;
+    font-size: 35px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .context h2 {
+    font-size: 45px;
+  }
+
+  .context .prompt {
+    margin-top: 10px;
+    font-size: 25px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .context h2 {
+    font-size: 30px;
+  }
+
+  .context .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
