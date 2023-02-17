@@ -1,39 +1,48 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import static_site from "../assets/My_Project_Images/static_portfolio.png"
+import library from "../assets/My_Project_Images/Tk_library_management_proj.png"
+import blog_post from "../assets/My_Project_Images/Blog_site/blog_site_post.png"
+import todo_site from "../assets/My_Project_Images/Todo_proj/Todo_site_list.png"
+import oa_mainscreen from "../assets/My_Project_Images/Online_assessment_proj/oa_mainscreen.png"
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    id: 1,
+    name: "Static Portfolio Site",
+    main_image: static_site,
+    skills: ['HTML5', 'CSS3', 'JAVASCRIPT'],
+    github: "link_text"
   },
   {
-    name: "Ecommerce Website",
-    image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    id: 2,
+    name: "Library Management Application",
+    image: library,
+    skills: ['React', 'Node.js', 'MongoDB'],
+    github: "link_text"
   },
   {
-    name: "Spotify Clone",
-    image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    id: 3,
+    name: "Blog Post Site",
+    image: blog_post,
+    skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
+    github: "link_text"
   },
   {
-    name: "Social Media Website",
-    image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    id: 4,
+    name: "Todo List site",
+    image: todo_site,
+    skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
+    github: "link_text"
   },
   {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    id: 5,
+    name: "Online Assessment Platform",
+    image: oa_mainscreen,
+    skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
+    github: "link_text"
   },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+  // {
+  //   name: "Mobile Game",
+  //   image: Proj6,
+  //   skills: "React Native,JavaScript,HTML,CSS",
+  // },
 ];

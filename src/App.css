@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Permanent+Marker&family=Roboto+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono&display=swap');
+
+
+:root {
+  --theme-color: #4e54c8;
+  --theme-font: 'Nunito Sans', sans-serif, 'Permanent Marker', cursive, 'Roboto Mono', monospace;
+  --font-weight-light: 300;
+  --font-weight-dark: 600;
+  --theme-sub-font: 'Permanent Marker', cursive;
+}
+
+
+* {
+  box-sizing: border-box;
+}
 
 .App {
   width: 100%;
@@ -27,5 +44,5 @@ html::-webkit-scrollbar-thumb {
 }
 
 html::-webkit-scrollbar-track {
-  background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+  background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
 }

@@ -1,36 +1,51 @@
 .projects {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 .projects .projectTitle {
+  margin-top: 120px;
   text-align: center;
-  color: #3e497a;
-  font-size: 60px;
-  font-weight: bolder;
+  color: var(--theme-color);
+  font-family: var(--theme-font);
+  font-weight: var(--font-weight-dark);
+  font-size: 50px;
+  /* font-weight: bolder; */
 }
 
 .projectList {
-  width: 70vw;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 1rem;
+  /* background-color: black; */
 }
 
 /* MENU ITEM STYLING */
 
 .projectItem {
   border-radius: 15px;
-  width: 300px;
-  height: 300px;
-  margin: 40px;
+  max-width: 35vw;
+  min-width: 30vw;
+  max-height: 70vh;
+  margin: 0.5rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .projectItem:hover {
@@ -47,31 +62,46 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 8;
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  font-size: 20px;
+  color: var(--theme-color);
+  font-family: var(--theme-sub-font);
+  font-weight: var(--font-weight-dark);
 }
 
-@media only screen and (max-width: 1300px) {
-  .projectList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
-    grid-template-columns: 1fr;
-  }
-}
+@media only screen and (max-width: 1300px) {}
 
 @media only screen and (max-width: 800px) {
   .projectList {
     width: 100%;
   }
 
+  .projectItem h1 {
+    font-size: 20px;
+  }
+
+
   .projectItem {
-    width: 300px;
-    height: 300px;
+    width: 90vw;
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projectList {
+    width: 100%;
+  }
+
+  .projectItem h1 {
+    font-size: 10px;
+  }
+
+
+  .projectItem {
+    max-width: 100vw;
+    height: auto;
   }
 }

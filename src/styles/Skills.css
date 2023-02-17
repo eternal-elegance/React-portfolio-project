@@ -25,6 +25,7 @@
   flex-wrap: wrap;
   align-items: stretch;
   z-index: 8;
+  /* padding: 10px; */
 }
 
 .container h4 {
@@ -35,7 +36,10 @@
 
 /* ================icon styles start========================== */
 
+/* +++++++++++++++Left styles++++++++++++++++++ */
+
 .top-expertise-left {
+  margin: 1rem;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -50,6 +54,7 @@
   -webkit-backdrop-filter: blur(9px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 30vw;
 }
 
 .icon-holder {
@@ -92,6 +97,7 @@
 
 .aws-clfc01 {
   background-image: url('../assets/logos/aws-certified-cloud-practitioner.png');
+  background-position: center;
 }
 
 .docker {
@@ -113,6 +119,128 @@
 .javascript {
   background-image: url("../assets/logos/icons8-javascript-48.png");
 }
+
+/* +++++++++++++++Left styles++++++++++++++++++ */
+
+
+/* +++++++++++++++RIGHT styles++++++++++++++++++ */
+.more-skills-right {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  z-index: 8;
+  border: 1px dashed var(--theme-color);
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+  max-width: 45vw;
+}
+
+.html {
+  background-image: url("../assets/logos/html5.png");
+}
+
+.css {
+  background-image: url("../assets/logos/icons8-css3-48.png");
+}
+
+.agile {
+  background-image: url("../assets/logos/agile.png");
+}
+
+.maven {
+  background-image: url("../assets/logos/Apache_Maven_logo.png");
+}
+
+.bootstrap {
+  background-image: url("../assets/logos/icons8-bootstrap-48.png");
+}
+
+.centos {
+  background-image: url("../assets/logos/icons8-centos-48.png");
+}
+
+.cproj {
+  background-image: url("../assets/logos/icons8-c-programming-48.png");
+}
+
+.json {
+  background-image: url("../assets/logos/icons8-curly-brackets-50.png");
+}
+
+.git {
+  background-image: url("../assets/logos/icons8-git-48.png");
+}
+
+.github {
+  background-image: url("../assets/logos/icons8-github-48.png");
+}
+
+.eclipse {
+  background-image: url("../assets/logos/icons8-java-eclipse-48.png");
+}
+
+.jwt {
+  background-image: url("../assets/logos/icons8-json-web-token-48.png");
+}
+
+.jupyter {
+  background-image: url("../assets/logos/icons8-jupyter-48.png");
+}
+
+.linux {
+  background-image: url("../assets/logos/icons8-linux-48.png");
+}
+
+.mongo {
+  background-image: url("../assets/logos/icons8-mongodb-48.png");
+}
+
+.mysql {
+  background-image: url("../assets/logos/icons8-mysql-logo-48.png");
+}
+
+.oracle {
+  background-image: url("../assets/logos/icons8-oracle-logo-48.png");
+}
+
+.pg {
+  background-image: url("../assets/logos/icons8-postgresql-48.png");
+}
+
+.redux {
+  background-image: url("../assets/logos/icons8-redux-48.png");
+}
+
+.spring-security {
+  background-image: url("../assets/logos/icons8-redux-48.png");
+}
+
+
+.ubuntu {
+  background-image: url("../assets/logos/icons8-ubuntu-48.png");
+}
+
+.windows {
+  background-image: url("../assets/logos/icons8-windows-10-48.png");
+}
+
+.vscode {
+  background-image: url("../assets/logos/Visual_Studio_Code_1.35_icon.png");
+}
+
+
+
+
+
+/* +++++++++++++++RIGHT styles++++++++++++++++++ */
+
 
 
 
@@ -174,6 +302,8 @@
   .skills h2 {
     font-size: 30px;
   }
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -186,4 +316,26 @@
   .skills h2 {
     font-size: 30px;
   }
+
+  .top-expertise-left {
+    min-width: 80%;
+  }
+
+  .more-skills-right {
+    min-width: 80%;
+  }
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+  .top-expertise-left {
+    min-width: 100%;
+  }
+
+  .more-skills-right {
+    min-width: 100%;
+  }
+
 }
