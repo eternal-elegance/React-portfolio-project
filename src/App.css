@@ -7,7 +7,7 @@
 
 :root {
   --theme-color: #4e54c8;
-  --theme-font: 'Nunito Sans', sans-serif, 'Permanent Marker', cursive, 'Roboto Mono', monospace;
+  --theme-font: 'Nunito Sans', sans-serif;
   --font-weight-light: 300;
   --font-weight-dark: 600;
   --theme-sub-font: 'Permanent Marker', cursive;

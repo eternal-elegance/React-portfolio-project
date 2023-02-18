@@ -95,6 +95,9 @@ function Skills() {
               <span className='cproj logo tooltip'>
                 <span class="tooltiptext">{tooltip_helper("C Programming")}</span>
               </span>
+              <span className='django logo tooltip'>
+                <span class="tooltiptext">{tooltip_helper("Django Web Framework")}</span>
+              </span>
 
               <span className='json logo tooltip'>
                 <span class="tooltiptext">{tooltip_helper("JSON")}</span>
@@ -157,6 +160,9 @@ function Skills() {
               </span>
               <span className='vscode logo tooltip'>
                 <span class="tooltiptext">{tooltip_helper("Visual Studio Code")}</span>
+              </span>
+              <span className='postman logo tooltip'>
+                <span class="tooltiptext">{tooltip_helper("Postman API Testing Client")}</span>
               </span>
 
             </div>

@@ -219,7 +219,7 @@
 }
 
 .spring-security {
-  background-image: url("../assets/logos/icons8-redux-48.png");
+  background-image: url("../assets/logos/icons8-spring-security.png");
 }
 
 
@@ -235,7 +235,13 @@
   background-image: url("../assets/logos/Visual_Studio_Code_1.35_icon.png");
 }
 
+.postman {
+  background-image: url("../assets/logos/icons8-postman-is-the-only-complete-api-development-environment-48.png");
+}
 
+.django {
+  background-image: url("../assets/logos/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-48.png");
+}
 
 
 

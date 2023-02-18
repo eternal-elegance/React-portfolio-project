@@ -1,29 +1,93 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .project h1 {
-  margin-top: 50px;
-  color: #3e497a;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  /* margin-top: 50px; */
+  color: var(--theme-color);
+  font-family: var(--theme-font);
+  font-weight: var(--font-weight-dark);
   font-size: 35px;
+  text-align: center;
 }
 
 .project img {
-  width: 700px;
+  width: 80%;
   border-radius: 10px;
 }
 
-.project p {
+/* .project p {
   font-size: 40px;
   color: #3e497a;
-}
+} */
 
 .project svg {
   font-size: 60px;
   color: #3e497a;
+}
+
+/* video styles */
+.video-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+
+.video-div h3 {
+  color: var(--theme-color);
+  font-family: var(--theme-font);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.video-div video {
+  width: 80%;
+  height: auto;
+  -webkit-box-shadow: 3px 0px 16px 15px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 3px 0px 16px 15px rgba(0, 0, 0, 0.59);
+  box-shadow: 3px 0px 16px 15px rgba(0, 0, 0, 0.59);
+  border-radius: 15px;
+}
+
+.skills-i {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.skills-i b {
+  color: var(--theme-color);
+  font-family: var(--theme-font);
+  font-size: 1.6rem;
+}
+
+.skill-tag {
+  color: white;
+  font-size: 1.2rem;
+  background-color: var(--theme-color);
+  border-radius: 15px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .project img {
+    width: 100%;
+  }
+  .project h1{
+    font-size: 2rem;
+  }
 }

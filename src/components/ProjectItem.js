@@ -14,17 +14,22 @@ function ProjectItem({ image, name, id }) {
     //   <h1> {name} </h1>
     // </div>
 
-    <div className="card">
+    <div className="card"
+      onClick={() => {
+        navigate("/project/" + id);
+      }}
+    >
       {/* image div */}
-      <div className="image">
+      < div className="image" >
         <img href="#" src={image} />
-      </div>
+      </div >
 
       <div className="content">
         <h3>{name}</h3>
+        <hr />
         <p>DIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
       </div>
-    </div>
+    </div >
   );
 }
 
