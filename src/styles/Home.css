@@ -17,6 +17,15 @@ body {
   font-family: 'Exo', sans-serif;
 }
 
+.hot-skills {
+  color: #e95ba9;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px auto;
+  /* border-top: 2px solid;
+  border-radius: 10px;
+  border-top-color: linear-gradient(90deg, rgba(233, 91, 169, 1) 35%, rgba(233, 211, 91, 1) 100%); */
+}
 
 .context {
   width: 100%;

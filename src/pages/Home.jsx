@@ -1,10 +1,7 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
-import "../styles/Home.css";
 import TypeWriter from 'react-typewriter';
 import Skills from "../components/Skills";
+import "../styles/Home.css";
 
 
 function Home() {
@@ -17,10 +14,10 @@ function Home() {
           <h2>Hi, My Name is <span>Anurag Banerjee</span></h2>
         </TypeWriter>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>"A software developer with a passion for learning and creating"</p>
+        </div>
+        <div className="hot-skills">
+          <p>#software #java #react #fullstack #python #git #AWS #docker</p>
         </div>
       </div>
 

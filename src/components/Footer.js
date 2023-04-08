@@ -8,14 +8,10 @@ import "../styles/Footer.css";
 
 function Footer() {
   const socialMediaLinks = [
-    {
-      platform: 'Instagram',
-      link: 'https://www.instagram.com/',
-      icon: <InstagramIcon />
-    },
+
     {
       platform: 'Github',
-      link: '',
+      link: 'https://github.com/eternal-elegance',
       icon: <GithubIcon />
     },
     {
@@ -27,6 +23,11 @@ function Footer() {
       platform: 'Linkdin',
       link: '',
       icon: <LinkedInIcon />
+    },
+    {
+      platform: 'Instagram',
+      link: 'https://www.instagram.com/',
+      icon: <InstagramIcon />
     },
     {
       platform: 'Twitter',

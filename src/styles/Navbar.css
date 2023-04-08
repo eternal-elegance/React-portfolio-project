@@ -5,7 +5,7 @@
   top: 5%;
   transform: translate(-50%, -5%);
 
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.562);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -29,10 +29,10 @@
 }
 
 .navbar a {
-  background: #121FCF;
-  background: -webkit-linear-gradient(to right, #121FCF 9%, #CF1512 100%);
-  background: -moz-linear-gradient(to right, #121FCF 9%, #CF1512 100%);
-  background: linear-gradient(to right, #121FCF 9%, #CF1512 100%);
+  background: #545fff;
+  background: -webkit-linear-gradient(to right, #545fff 9%, #e947a0 100%);
+  background: -moz-linear-gradient(to right, #545fff 9%, #e947a0 100%);
+  background: linear-gradient(to right, #545fff 9%, #e947a0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -40,6 +40,7 @@
   margin: 20px;
   font-size: 25px;
   padding: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar a:hover {
