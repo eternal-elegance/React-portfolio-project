@@ -21,7 +21,7 @@ function Footer() {
     },
     {
       platform: 'Linkdin',
-      link: '',
+      link: 'https://www.linkedin.com/anurag-banerjee/',
       icon: <LinkedInIcon />
     },
     {
@@ -51,7 +51,7 @@ function Footer() {
           ))
         }
       </div>
-      <p> &copy; 2023 designed and developed by Anurag Banerjee</p>
+      <p> &copy;2023 designed and developed by Anurag Banerjee</p>
     </div>
   );
 }

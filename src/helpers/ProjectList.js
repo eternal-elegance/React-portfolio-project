@@ -28,7 +28,8 @@ export const ProjectList = [
     images: [static_site],
     video: undefined,
     skills: ['HTML5', 'CSS3', 'JAVASCRIPT'],
-    github: "link_text"
+    github: "https://github.com/eternal-elegance/Potfolio_site",
+    desc: "The portfolio site I developed was a personal project that allowed me to explore my interest in web designing and gain practical experience in the field. The site was built entirely from scratch, using HTML, CSS, and JavaScript, and was focused on showcasing my skills and interests."
   },
   {
     id: 1,
@@ -36,8 +37,9 @@ export const ProjectList = [
     image: library,
     images: [library],
     video: undefined,
-    skills: ['React', 'Node.js', 'MongoDB'],
-    github: "link_text"
+    skills: ['Python', 'Tkinter'],
+    github: "https://github.com/eternal-elegance/Library-management-system",
+    desc: 'The Library Management Software that I developed as part of an assignment for a course in Python was a comprehensive application that utilized the Tkinter library to create a user-friendly desktop interface.'
   },
   {
     id: 2,
@@ -46,7 +48,8 @@ export const ProjectList = [
     images: [blog_post, blog_site_main, blog_site1],
     video: blog_video,
     skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
-    github: "link_text"
+    github: "https://github.com/eternal-elegance/Blog-site",
+    desc: 'The blog site that I developed as part of learning Django was an exciting project that allowed me to apply the concepts I learned in the course to a real-world scenario. The site was designed to be a platform for sharing ideas and knowledge, where users could create accounts, write blog posts, and interact with other users through comments.'
   },
   {
     id: 3,
@@ -55,7 +58,8 @@ export const ProjectList = [
     images: [todo_site_list, todo_site_empty, todo_site_login, todo_site_register],
     video: todo_site_video,
     skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
-    github: "link_text"
+    github: "https://github.com/eternal-elegance/Django-to-do-app",
+    desc: 'The TODO List site that I developed as part of learning Django was an exciting project that allowed me to apply the concepts I learned in the course to a practical use case. The site was designed to help users keep track of their daily tasks, with the ability to create, manage, and complete tasks on the go.'
   },
   {
     id: 4,
@@ -64,7 +68,8 @@ export const ProjectList = [
     images: [oa_mainscreen, oa_register, oa_math, oa_login],
     video: undefined,
     skills: ["Django", "HTML5", "CSS3", "Javascript", "BootStrap3", "DTL"],
-    github: "link_text"
+    github: "https://github.com/eternal-elegance/walkover_final_assesment",
+    desc: 'During my internship at Walkover Web Solutions, I had the opportunity to work on this online assessment web app, which allowed companies to conduct assessments for potential candidates. The project was developed using Python and Django framework, along with various web frontend technologies.'
   },
   // {
   //   name: "Mobile Game",

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function ProjectItem({ image, name, id }) {
+function ProjectItem({ image, name, id, desc }) {
   const navigate = useNavigate();
   return (
     // <div
@@ -27,7 +27,7 @@ function ProjectItem({ image, name, id }) {
       <div className="content">
         <h3>{name}</h3>
         <hr />
-        <p>DIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+        <p>{desc}</p>
       </div>
     </div >
   );

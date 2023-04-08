@@ -42,6 +42,7 @@ function ProjectDisplay() {
           : undefined
       }
 
+      {/* skills section */}
       <p className="skills-i">
         {
           project.skills.map(skill => {
@@ -49,7 +50,7 @@ function ProjectDisplay() {
           })
         }
       </p>
-      <a href={"#"} target={"_blank"}>
+      <a href={project.github} target={"_blank"}>
         <GitHubIcon />
       </a>
     </div>
